@@ -5,7 +5,7 @@ import {
     Route,
     Link
 } from 'react-router-dom';
-import NavBar from 'react-bootstrap/NavBar';
+import NavBar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Collapse from 'react-bootstrap/Collapse';
