@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Messenger = () => {
     return(
         <div ClassName="messenger">
-            <a href="https://www.m.me/bootupdesigner">
+            <a href="https://www.m.me/bootupwebdesigns">
 <FontAwesomeIcon icon={['fab', 'facebook-messenger']} size="3x" pull="right" />
 </a>
 </div>
