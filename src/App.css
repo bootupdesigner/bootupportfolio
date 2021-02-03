@@ -52,3 +52,19 @@ img.banner {
   width: 200px;
   background-color: blue;;
 }
+
+.messenger {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+svg.svg-inline--fa{
+  display: flex;
+  color: blue;
+  margin: 10px;
+  position: sticky;
+  bottom: 1;
+  width: 100%;
+}
