@@ -18,9 +18,14 @@ import Messenger from './components/Messenger';
 import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faFacebookMessenger } from '@fortawesome/free-brands-svg-icons'
+import {
+  faFacebookMessenger,
+  faFacebookF,
+  faTwitter,
+  faLinkedinIn
+} from "@fortawesome/free-brands-svg-icons";
 
-library.add(fab, faFacebookMessenger)
+library.add(fab, faFacebookMessenger, faFacebookF, faTwitter, faLinkedinIn)
 
 function App() {
   return (
@@ -32,7 +37,7 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
-      <Messenger className="fa-2x"/>
+      <Messenger />
       <Footer />
     </Router>
   );
