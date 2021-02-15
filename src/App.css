@@ -90,5 +90,13 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: #c0a134;
+  text-decoration: none;
+}
+
+.servicelink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
 }

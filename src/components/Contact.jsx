@@ -1,5 +1,6 @@
 import React from "react";
 import Social from "./Social";
+import ServiceLink from "./ServiceLink";
 
 const Contact = () => {
   return (
@@ -31,9 +32,11 @@ const Contact = () => {
           <button type="submit">Send</button>
         </form>
       </div>
+      <ServiceLink />
     </div>
   );
 };
 
 export default Contact;
+
 
