@@ -1,3 +1,7 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 div.footer {
   display: grid;
   grid-template-columns: 100%;
@@ -99,4 +103,28 @@ a:hover {
   flex-direction: row;
   justify-content: center;
   margin-top: 30px;
+}
+
+.each-slide {
+  height: auto;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+div.services {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+div.fifty {
+  display: block;
+  margin: 10px auto;
 }
