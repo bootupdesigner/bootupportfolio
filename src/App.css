@@ -105,7 +105,7 @@ a:hover {
   margin-top: 30px;
 }
 
-.each-slide {
+div.each-slide {
   height: auto;
   margin: 5px auto;
   display: flex;

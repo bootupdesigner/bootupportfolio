@@ -20,7 +20,7 @@ const Slideshow = () => {
         <i>CERTIFICATIONS</i>
       </h2>
       <div className="slide-container">
-        <Slide>
+        <Slide style={{width: "100%"}}> 
           <div className="each-slide">
             <img
               src={e_commerce_button}
