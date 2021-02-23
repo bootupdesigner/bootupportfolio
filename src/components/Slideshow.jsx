@@ -20,12 +20,13 @@ const Slideshow = () => {
         <i>CERTIFICATIONS</i>
       </h2>
       <div className="slide-container">
-        <Slide style={{width: "100%"}}> 
+        <Slide>
           <div className="each-slide">
             <img
               src={e_commerce_button}
               alt="Certified Internet Webmaster: E-Commerce Design Specialist"
-              height="300px"
+              height="100vh"
+              width="100vw"
             />
             <span>Certfied Internet Webmaster</span>
             <h4>E-Commerce Design Specialist</h4>
@@ -34,13 +35,19 @@ const Slideshow = () => {
             <img
               src={database_button}
               alt="Certified Internet Webmaster: Database Design Specialist"
-              height="300px"
+              height="100vh"
+              width="100vw"
             />
             <span>Certfied Internet Webmaster</span>
             <h4>Database Design Specialist</h4>
           </div>
           <div className="each-slide">
-            <img src={projectplus} alt="ComnpTIA Project Plus" height="300px" />
+            <img
+              src={projectplus}
+              alt="ComnpTIA Project Plus"
+              height="100vh"
+              width="100vw"
+            />
             <span>Computing Technology Industry Association</span>
             <h4>Project+ Certified</h4>
           </div>
@@ -48,7 +55,8 @@ const Slideshow = () => {
             <img
               src={projectcapm}
               alt="ComnpTIA Certified Associate in Project Management"
-              height="300px"
+              height="100vh"
+              width="100vw"
             />
             <span>Computing Technology Industry Association</span>
             <h4>Certified Associate in Project Management</h4>
