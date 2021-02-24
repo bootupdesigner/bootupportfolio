@@ -28,8 +28,8 @@ const Slideshow = () => {
               height="100vh"
               width="100vw"
             />
-            <span>Certfied Internet Webmaster</span>
-            <h4>E-Commerce Design Specialist</h4>
+            <span style={{textAlign: "center"}}>Certfied Internet Webmaster</span>
+            <h4 style={{textAlign: "center"}}>E-Commerce Design Specialist</h4>
           </div>
           <div className="each-slide">
             <img
@@ -38,8 +38,8 @@ const Slideshow = () => {
               height="100vh"
               width="100vw"
             />
-            <span>Certfied Internet Webmaster</span>
-            <h4>Database Design Specialist</h4>
+            <span style={{textAlign: "center"}}>Certfied Internet Webmaster</span>
+            <h4 style={{textAlign: "center"}}>Database Design Specialist</h4>
           </div>
           <div className="each-slide">
             <img
@@ -48,8 +48,8 @@ const Slideshow = () => {
               height="100vh"
               width="100vw"
             />
-            <span>Computing Technology Industry Association</span>
-            <h4>Project+ Certified</h4>
+            <span style={{textAlign: "center"}}>Computing Technology Industry Association</span>
+            <h4 style={{textAlign: "center"}}>Project+ Certified</h4>
           </div>
           <div className="each-slide">
             <img
@@ -58,8 +58,8 @@ const Slideshow = () => {
               height="100vh"
               width="100vw"
             />
-            <span>Computing Technology Industry Association</span>
-            <h4>Certified Associate in Project Management</h4>
+            <span style={{textAlign: "center"}}>Computing Technology Industry Association</span>
+            <h4 style={{textAlign: "center"}}>Certified Associate in Project Management</h4>
           </div>
         </Slide>
       </div>
