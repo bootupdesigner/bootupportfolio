@@ -123,8 +123,13 @@ div.each-slide {
 div.services {
   display: grid;
   grid-template-columns: 50% 50%;
+  margin: 10px;
 }
 div.fifty {
   display: block;
   margin: 10px auto;
+}
+
+.startups {
+  display: grid;
 }
